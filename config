@@ -1,0 +1,55 @@
+// ===================================================================
+// SITE CONFIGURATION
+// ===================================================================
+// This file holds all business details that appear on the website.
+// Edit any value here and it will update EVERYWHERE it appears on the
+// site (homepage, contact section, policy modals, success page, etc).
+//
+// After editing, save the file. If deployed via GitHub, commit and
+// push to trigger a redeploy. Changes go live within 1 to 2 minutes.
+//
+// IMPORTANT: Keep the quotes "..." around each value. Do not delete
+// the commas at the end of each line.
+// ===================================================================
+
+window.SITE_CONFIG = {
+
+  // -------- BUSINESS NAME --------
+  // Appears in copyright text and policy documents.
+  businessName: "J Beaver's Jewels",
+
+  // -------- FOUNDER NAME --------
+  // Appears in the signature on the "Atelier" story section.
+  founder: "Samantha",
+
+  // -------- YEAR ESTABLISHED --------
+  // Appears in the hero eyebrow and on the hero image badge.
+  established: "2021",
+
+  // -------- COPYRIGHT YEAR --------
+  // Appears in the footer. Update once a year.
+  copyrightYear: "2026",
+
+  // -------- EMAIL ADDRESS --------
+  // Used in: contact section, mailto links, success page,
+  // and all 4 policy documents (Terms, Privacy, Refunds, Shipping).
+  email: "samanthagailfraz@gmail.com",
+
+  // -------- PHONE NUMBER (display format) --------
+  // This is the human-readable version shown on screen.
+  // Used in: contact section, success page, all 4 policy documents.
+  phone: "+1 (415) 244 0583",
+
+  // -------- PHONE NUMBER (raw format for tap-to-call) --------
+  // Required for the tel: link to work on mobile.
+  // Must have NO spaces, dashes, parentheses, or letters.
+  // Format: +CountryCodeNumber  e.g. +14152440583
+  phoneRaw: "+14152440583",
+
+  // -------- HOURS OF AVAILABILITY --------
+  // Two lines shown in the contact section.
+  // Examples for shorter hours: "Mon to Fri", "9:00 to 17:00 PT"
+  hoursLine1: "Available 24 hours",
+  hoursLine2: "Seven days a week",
+
+};
